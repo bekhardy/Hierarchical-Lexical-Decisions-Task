@@ -75,7 +75,6 @@ We then found the mean and standard deviation of these similarity scores.
 This gave us our overall semantic neighborhood density for each word. 
 This can be found in non-experimental documentation/semantic neighborhood data/SemanticNeighborhood data.xlsx 
 You can find each words list of neighbors at non-experimental documentation/semantic neighborhood data/sub and non-experimental documentation/semantic neighborhood data/sup
-Further, 
 
   _   _   _   _   _  
  / \ / \ / \ / \ / \ 
