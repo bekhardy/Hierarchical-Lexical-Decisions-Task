@@ -6,6 +6,16 @@
 |(|2|0|2|5|)|                                                      
 +-+-+-+-+-+-+                                                      
 
+//////////////////////////
+//+-+-+-+-+ +-+-+-+-+-+ //
+//|R|E|A|D| |F|I|R|S|T| //
+//+-+-+-+-+ +-+-+-+-+-+ //
+//////////////////////////
+Available for use is an Amazon Machine Image (AMI) which contains this experiment fully 
+set up. AMIs allow you to access this experiment and immediately run it yourself with minimal
+set up. To do this, you utilize an Amazon Elastic Compute Cloud (EC2) instance. 
+
+The AMI of the experiment used for the OSF pregistration (osf.io/me48u) is: 
   _   _   _   _   _   _   _   _  
  / \ / \ / \ / \ / \ / \ / \ / \ 
 ( O | v | e | r | v | i | e | w )
@@ -46,13 +56,6 @@ Catch trials never interrupt a pair.
  I am however incredibly thankful to the core team of jsPsych.
  They are Josh de Leeuw of Vassar College, Becky Gilbert of MIT, and Björn Luchterhandt of Paderborn University. 
 
-  _   _   _   _     _   _   _   _   _   _   _   _  
- / \ / \ / \ / \   / \ / \ / \ / \ / \ / \ / \ / \ 
-( d | a | t | a ) ( c | l | e | a | n | i | n | g )
- \_/ \_/ \_/ \_/   \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-
- This section is referencing non-experimental documentation/DataCleaning+Analysis.ipynb
-
 
   _   _   _   _   _   _   _   _     _   _   _   _   _   _   _  
  / \ / \ / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ / \ / \ 
@@ -60,6 +63,7 @@ Catch trials never interrupt a pair.
  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
 
 If you prefer another data cleaning logic, you can use non-experimental documentation/RenamingScript.ipynb.
+This is just the renaming portion of the script without the additional contents.
 
   _   _   _   _   _  
  / \ / \ / \ / \ / \ 
@@ -84,7 +88,7 @@ You can find each words list of neighbors at non-experimental documentation/sema
 To post the experiment on Prolific, you must first retain non-IP links. To do this, I use the ShortLink.ipynb file.
  You can change the words that are presented easily by simply changing them in the javascript files located at order#{letter}/order#{letter}_script.js. 
  Similarly, to change the order, just reorder the timeline found in order#{letter}/order#{letter}.html
-You can also use the Amazon image available with AMI ID: ami-0df486d56e9fbe942
+
   _   _   _   _   _   _   _  
  / \ / \ / \ / \ / \ / \ / \ 
 ( c | o | n | t | a | c | t )
