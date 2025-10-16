@@ -15,7 +15,7 @@ Available for use is an Amazon Machine Image (AMI) which contains this experimen
 set up. AMIs allow you to access this experiment and immediately run it yourself with minimal
 set up. To do this, you utilize an Amazon Elastic Compute Cloud (EC2) instance. 
 
-The AMI of the experiment used for the OSF pregistration (osf.io/me48u) is: 
+The AMI of the experiment used for the OSF pregistration (osf.io/me48u) is: ami-02a23130aab62d57d
   _   _   _   _   _   _   _   _  
  / \ / \ / \ / \ / \ / \ / \ / \ 
 ( O | v | e | r | v | i | e | w )
