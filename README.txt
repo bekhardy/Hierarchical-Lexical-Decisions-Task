@@ -75,7 +75,6 @@ We then found the mean and standard deviation of these similarity scores.
 This gave us our overall semantic neighborhood density for each word. 
 This can be found in non-experimental documentation/semantic neighborhood data/SemanticNeighborhood data.xlsx 
 You can find each words list of neighbors at non-experimental documentation/semantic neighborhood data/sub and non-experimental documentation/semantic neighborhood data/sup
-Further, 
 
   _   _   _   _   _  
  / \ / \ / \ / \ / \ 
@@ -85,7 +84,7 @@ Further,
 To post the experiment on Prolific, you must first retain non-IP links. To do this, I use the ShortLink.ipynb file.
  You can change the words that are presented easily by simply changing them in the javascript files located at order#{letter}/order#{letter}_script.js. 
  Similarly, to change the order, just reorder the timeline found in order#{letter}/order#{letter}.html
-You can also use the Amazon image available on Github
+You can also use the Amazon image available with AMI ID: ami-0df486d56e9fbe942
   _   _   _   _   _   _   _  
  / \ / \ / \ / \ / \ / \ / \ 
 ( c | o | n | t | a | c | t )
