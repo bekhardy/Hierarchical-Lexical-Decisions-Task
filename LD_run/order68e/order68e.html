@@ -90,6 +90,14 @@ var jsPsych = initJsPsych (
   stimulus: "<p style='font-size: 15px'>Do you consent to the following experiment? If you do not, please close this browser window now, and return the experiment. If you do, scroll down to the 'agree' button.</p><img src='../Consent Statement for Research-1.jpg' width='50%' height='50%'>",
   choices: ['Agree']
       };
+
+var ProID = {
+  type: jsPsychSurveyHtmlForm,
+  preamble: '<p><b>Please paste your Prolific participant ID below</b></p>',
+  html: 
+    '<input type="text" id="ProID" name="ProID" size="50"><br><br><br>',
+};
+
     /*  var Correct = {
      type:jsPsychHtmlKeyboardResponse,
      prompt: '<p> Correct! Response recorded</p>',
@@ -1198,8 +1206,8 @@ on_start: function() {
     
     timeline.push(preload)
     timeline.push(welcome)
-    timeline.push(consent)
-    timeline.push(instructions)
+    timeline.push(consent);
+timeline.push(ProID);timeline.push(instructions)
     //timeline.push(imageinstructions)
     //timeline.push(imagetrialexplanation)
     timeline.push (fingerinstructions)
